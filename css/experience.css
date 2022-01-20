@@ -1,0 +1,33 @@
+.cards-cointainer {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+}
+img {
+    width: 100%;
+    border-radius: 2px;
+}
+.card {
+    margin: 0px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    padding: 2%;
+}
+@media (min-width:1060px) {
+    main {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+@media (min-width:750px) {
+    main {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

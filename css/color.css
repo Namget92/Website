@@ -1,0 +1,60 @@
+
+/* Färgerna i @media och i @keyframes finns inte här*/
+
+body {
+    color: white;
+}
+.logo-link {
+    color: inherit;
+}
+.logo-container {
+    background-color: black;
+    border: white solid 2px;
+    color: white;
+}
+.nav-links { 
+    color: black;
+    text-shadow: black 1px;
+}
+.h1-h3 {
+    text-shadow: black 1px 1px;
+}
+.frågetecken-länk {
+    color: black;
+}
+.index-container {
+    background-color: #ffffff10;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) solid 2px;
+    color: black;
+}
+.card-type-2 {
+    color: rgb(255, 255, 255);
+}
+.fakta-ruta {
+    background-color: #ffffff10;
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) solid 2px;
+    color: black;
+}
+.tim {
+    border: rgb(0, 0, 0) solid 1px;
+}
+input:required {
+    border-color: #1eff00;
+  }
+input:required:invalid {
+    border-color: #000000;
+  }
+textarea:required {
+    border-color: #1eff00;
+  }
+textarea:required:invalid {
+    border-color: #000000;
+  }
+.submit {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
