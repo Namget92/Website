@@ -1,1 +1,1 @@
-# A cv website i made for a assignment in school.
+# A portfolio website i made for a school assignment.
